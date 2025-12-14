@@ -19,7 +19,7 @@ app.secret_key = os.environ.get("SECRET_KEY", "defaultsecret")
 # --- konfigurasi database ---
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get(
     "DATABASE_URL",
-    "mysql+pymysql://root:uLXdQgjmltdEOnaTJLlTdyMkXvwBlXdk@mainline.proxy.rlwy.net:53534/railway"
+    "mysql+pymysql://root:aHgqvvvvjqKmAbgblAHiaVZyYjclGvmi@caboose.proxy.rlwy.net:13093/railway"
 )
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
